@@ -1,0 +1,137 @@
+
+body {
+	background: black;
+	background-image: url(/images/background.png);
+	background-size: auto 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: $text-color;
+}
+
+h1 {
+	font-family: $bold-font-family;
+	font-size: 2.25em;
+	line-height: 1.15;
+	margin-bottom: 0;
+}
+
+h2 {
+	font-family: $light-font-family;
+	font-size: 1.25em;
+	line-height: 1.15;
+	margin-bottom: 0;
+}
+
+header h2 {
+	max-width: 11em;
+}
+
+.big-text {
+	font-family: $bold-font-family;
+	font-size: 1.25em;
+	line-height: 1.15;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	max-width: 16em;
+}
+
+.dark-background {
+	padding: .5em $spacing-unit;
+	margin: -$spacing-unit;
+	margin-top: 0;
+	margin-bottom: 0;
+	background: rgba(0,0,0,.5);
+	p {
+		font-family: $bold-font-family;
+		font-size: 1em;
+		line-height: 1.15;
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+}
+
+.project-title {
+	font-family: $medium-font-family;
+	font-size: 1em;
+	line-height: 1.15;
+}
+
+.rrss-link {
+	font-family: $medium-font-family;
+	font-size: $small-font-size;
+	color: $text-color;
+}
+
+.projects {
+
+	img {
+		margin: .5em 0;
+		display: inline-block;
+	}
+
+	.project-row {
+		display: flex;
+		flex-direction: row;
+	}
+	.project.mireia {
+		width: 66%;
+	}
+	.project.cortana {
+		width: 30%;
+		margin-left: 4%;
+	}
+}
+
+.posts {
+	margin-top: 2em;
+	text-align: center;
+
+	.posts-header {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-bottom: 2em;
+
+		hr {
+			width: 20%;
+			border: none;
+			border-top: 1px solid #979797;
+		}
+
+		h2 {
+			text-align: center;
+			display: inline;
+			margin: 0 auto;
+		}
+	}
+
+	.posts-container {
+
+		.post {
+			display: block;
+			color: $text-color;
+			font-family: $regular-font-family;
+			font-size: 1em;
+			line-height: 1.2;
+			text-align: left;
+
+			&:last-child {
+				margin-top: 1em;
+			}
+
+			span {
+				margin-top: .5em;
+				display: block;
+			}
+		}
+	}
+	.more {
+		font-size: $small-font-size;
+		color: $text-color;
+		border: 2px solid $text-color;
+		padding: .5em 2em;
+		margin-top: 1em;
+		margin-bottom: 1em;
+		display: inline-block;
+	}
+}

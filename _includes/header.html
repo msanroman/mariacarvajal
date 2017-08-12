@@ -1,0 +1,10 @@
+
+<header>
+	<h1>{{ site.title }}</h1>
+	<h2>{{ site.subtitle }}</h2>
+	<section class="rrss-links">
+		{% for link in site.links %}
+			<a class="rrss-link" href="{{ link.link[1] }}" target="_blank">{{ link.link[0] }}</a>
+		{% endfor %}
+	</section>
+</header>

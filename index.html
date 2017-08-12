@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<p class="big-text">{{ site.description }}</p>
+
+<h2>These are brands and businesses I've had the pleasure to work with:</h2>
+
+<section class="projects">
+	<img src="/images/projects/otter.png">
+	<section class="project-row">
+		<section class="project mireia">
+			<img src="/images/projects/mireia_abras.png">
+		</section>
+		<section class="project cortana">
+			<img src="/images/projects/cortana.png">
+		</section>
+	</section>
+	<img src="/images/projects/runroom.png">
+</section>
+
+<section class="dark-background">
+	{% for paragraph in site.bio %}
+		<p>{{ paragraph }}</p>
+	{% endfor %}
+</section>
+
+
+<section class="posts">
+	<section class="posts-header">
+		<hr/>
+		<h2>Latest posts</h2>
+		<hr/>
+	</section>
+	<section class="posts-container">
+		<a class="post" href="{{ site.post.url }}">
+			<img src="{{ site.post.image }}">
+			<span class="title">{{ site.post.title }}</span>
+		</a>
+		<a class="post" href="{{ site.post_2.url }}">
+			<img src="{{ site.post_2.image }}">
+			<span class="title">{{ site.post_2.title }}</span>
+		</a>
+	</section>
+	<a class="more" href="https://medium.com/@Maria_Carvajal">Read more</a>
+</section>
+
+<section class="dark-background">
+	<p>{{ site.work }}</p>
+	<p>{{ site.email }}</p>
+</section>

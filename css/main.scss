@@ -1,0 +1,98 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$regular-font-family: "TTNorms-Regular", $base-font-family;
+$bold-font-family: "TTNorms-Bold", $base-font-family;
+$light-font-family: "TTNorms-Light", $base-font-family;
+$medium-font-family: "TTNorms-Medium", $base-font-family;
+
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     1.875em;
+
+$text-color:       #fff;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    800px;
+
+$medium:           540px;
+$on-palm:          600px;
+$on-ipad:          768px;
+$on-laptop:        800px;
+
+
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+				"maria",
+        "syntax-highlighting"
+;
+
+@include media-query($medium) {
+	html, body {
+		font-size: 24px;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	.big-text {
+		font-size: 1.5em;
+		max-width: 22em;
+	}
+
+	.posts {
+		.posts-header {
+			hr {
+				width: 35%;
+			}
+		}
+		.posts-container {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.post {
+				width: 49%;
+
+				&:last-child {
+					margin-top: 0;
+				}
+			}
+		}
+		.more {
+			margin: 2em 0;
+		}
+	}
+}

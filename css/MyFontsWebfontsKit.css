@@ -1,0 +1,130 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3436070, 2017-08-12T07:25:26-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: TTNorms-ExtraBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/exbold/
+ * 
+ * Webfont: TTNorms-BoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/bold-ital/
+ * 
+ * Webfont: TTNorms-Black by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/black/
+ * 
+ * Webfont: TTNorms-BlackItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/black-ital/
+ * 
+ * Webfont: TTNorms-Bold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/bold/
+ * 
+ * Webfont: TTNorms-ExtraBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/exbold-ital/
+ * 
+ * Webfont: TTNorms-ExtraLightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/exlight-ital/
+ * 
+ * Webfont: TTNorms-ExtraLight by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/exlight/
+ * 
+ * Webfont: TTNorms-HeavyItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/heavy-ital/
+ * 
+ * Webfont: TTNorms-Heavy by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/heavy/
+ * 
+ * Webfont: TTNorms-Italic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/ital/
+ * 
+ * Webfont: TTNorms-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/light/
+ * 
+ * Webfont: TTNorms-LightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/light-ital/
+ * 
+ * Webfont: TTNorms-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/medium/
+ * 
+ * Webfont: TTNorms-MediumItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/med-ital/
+ * 
+ * Webfont: TTNorms-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/regular/
+ * 
+ * Webfont: TTNorms-Thin by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/thin/
+ * 
+ * Webfont: TTNorms-ThinItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-norms/thin-ital/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3436070
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2017 by TypeType. Designers Ivan Gladkikh, Pavel Emelyanov. Technical designers Olexa Volochay, Nadyr Rakhimov, Dmitriy Greshnev. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/346e26");
+
+  
+@font-face {font-family: 'TTNorms-ExtraBold';src: url('webfonts/346E26_0_0.eot');src: url('webfonts/346E26_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_0_0.woff2') format('woff2'),url('webfonts/346E26_0_0.woff') format('woff'),url('webfonts/346E26_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-BoldItalic';src: url('webfonts/346E26_1_0.eot');src: url('webfonts/346E26_1_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_1_0.woff2') format('woff2'),url('webfonts/346E26_1_0.woff') format('woff'),url('webfonts/346E26_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Black';src: url('webfonts/346E26_2_0.eot');src: url('webfonts/346E26_2_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_2_0.woff2') format('woff2'),url('webfonts/346E26_2_0.woff') format('woff'),url('webfonts/346E26_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-BlackItalic';src: url('webfonts/346E26_3_0.eot');src: url('webfonts/346E26_3_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_3_0.woff2') format('woff2'),url('webfonts/346E26_3_0.woff') format('woff'),url('webfonts/346E26_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Bold';src: url('webfonts/346E26_4_0.eot');src: url('webfonts/346E26_4_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_4_0.woff2') format('woff2'),url('webfonts/346E26_4_0.woff') format('woff'),url('webfonts/346E26_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-ExtraBoldItalic';src: url('webfonts/346E26_5_0.eot');src: url('webfonts/346E26_5_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_5_0.woff2') format('woff2'),url('webfonts/346E26_5_0.woff') format('woff'),url('webfonts/346E26_5_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-ExtraLightItalic';src: url('webfonts/346E26_6_0.eot');src: url('webfonts/346E26_6_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_6_0.woff2') format('woff2'),url('webfonts/346E26_6_0.woff') format('woff'),url('webfonts/346E26_6_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-ExtraLight';src: url('webfonts/346E26_7_0.eot');src: url('webfonts/346E26_7_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_7_0.woff2') format('woff2'),url('webfonts/346E26_7_0.woff') format('woff'),url('webfonts/346E26_7_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-HeavyItalic';src: url('webfonts/346E26_8_0.eot');src: url('webfonts/346E26_8_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_8_0.woff2') format('woff2'),url('webfonts/346E26_8_0.woff') format('woff'),url('webfonts/346E26_8_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Heavy';src: url('webfonts/346E26_9_0.eot');src: url('webfonts/346E26_9_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_9_0.woff2') format('woff2'),url('webfonts/346E26_9_0.woff') format('woff'),url('webfonts/346E26_9_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Italic';src: url('webfonts/346E26_A_0.eot');src: url('webfonts/346E26_A_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_A_0.woff2') format('woff2'),url('webfonts/346E26_A_0.woff') format('woff'),url('webfonts/346E26_A_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Light';src: url('webfonts/346E26_B_0.eot');src: url('webfonts/346E26_B_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_B_0.woff2') format('woff2'),url('webfonts/346E26_B_0.woff') format('woff'),url('webfonts/346E26_B_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-LightItalic';src: url('webfonts/346E26_C_0.eot');src: url('webfonts/346E26_C_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_C_0.woff2') format('woff2'),url('webfonts/346E26_C_0.woff') format('woff'),url('webfonts/346E26_C_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Medium';src: url('webfonts/346E26_D_0.eot');src: url('webfonts/346E26_D_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_D_0.woff2') format('woff2'),url('webfonts/346E26_D_0.woff') format('woff'),url('webfonts/346E26_D_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-MediumItalic';src: url('webfonts/346E26_E_0.eot');src: url('webfonts/346E26_E_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_E_0.woff2') format('woff2'),url('webfonts/346E26_E_0.woff') format('woff'),url('webfonts/346E26_E_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Regular';src: url('webfonts/346E26_F_0.eot');src: url('webfonts/346E26_F_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_F_0.woff2') format('woff2'),url('webfonts/346E26_F_0.woff') format('woff'),url('webfonts/346E26_F_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-Thin';src: url('webfonts/346E26_10_0.eot');src: url('webfonts/346E26_10_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_10_0.woff2') format('woff2'),url('webfonts/346E26_10_0.woff') format('woff'),url('webfonts/346E26_10_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'TTNorms-ThinItalic';src: url('webfonts/346E26_11_0.eot');src: url('webfonts/346E26_11_0.eot?#iefix') format('embedded-opentype'),url('webfonts/346E26_11_0.woff2') format('woff2'),url('webfonts/346E26_11_0.woff') format('woff'),url('webfonts/346E26_11_0.ttf') format('truetype');}
+ 
