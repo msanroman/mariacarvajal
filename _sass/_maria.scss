@@ -1,7 +1,7 @@
 
 body {
 	background: black;
-	background-image: url(/images/background.png);
+	background-image: url($baseurl + "/images/background.png");
 	background-size: auto 100%;
 	background-position: center;
 	background-repeat: no-repeat;
