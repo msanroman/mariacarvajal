@@ -1,10 +1,11 @@
 
 body {
 	background: black;
-	background-image: url($baseurl + "/images/background.png");
-	background-size: auto 100%;
+	background-image: url($baseurl + "/images/background_optimized.jpg");
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
 	color: $text-color;
 }
 
