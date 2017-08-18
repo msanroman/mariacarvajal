@@ -33,15 +33,17 @@ header h2 {
 	line-height: 1.15;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	max-width: 16em;
 }
 
 .dark-background {
-	padding: .5em $spacing-unit;
-	margin: -$spacing-unit;
+	padding: .5em;
+	margin: 0 auto;
 	margin-top: 0;
 	margin-bottom: 0;
 	background: rgba(0,0,0,.5);
+	.wrapper {
+		margin-top: 0;
+	}
 	p {
 		font-family: $bold-font-family;
 		font-size: 1em;
@@ -134,5 +136,19 @@ header h2 {
 		margin-top: 1em;
 		margin-bottom: 1em;
 		display: inline-block;
+	}
+}
+
+.logo {
+	position: absolute;
+	top: 2em;
+
+	.smallcap {
+		font-size: 1em;
+	}
+	.spacer {
+		border-top: 2px solid white;
+		display: inline-block;
+		width: .75em;
 	}
 }

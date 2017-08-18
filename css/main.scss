@@ -29,7 +29,7 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    1200px;
 
 $medium:           540px;
 $on-palm:          600px;
@@ -61,7 +61,7 @@ $on-laptop:        800px;
 
 @include media-query($medium) {
 	html, body {
-		font-size: 24px;
+		font-size: 32px;
 	}
 
 	h2 {
@@ -70,7 +70,6 @@ $on-laptop:        800px;
 
 	.big-text {
 		font-size: 1.5em;
-		max-width: 22em;
 	}
 
 	.posts {
