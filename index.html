@@ -20,13 +20,17 @@ layout: default
 	</section>
 	<img src="{{ "/images/projects/optim/runroom_card.png" | prepend: site.baseurl }}">
 </section>
+</div>
 
 <section class="dark-background">
+	<div class="wrapper">
 	{% for paragraph in site.bio %}
 		<p>{{ paragraph }}</p>
 	{% endfor %}
+	</div>
 </section>
 
+<div class="wrapper">
 <section class="posts">
 	<section class="posts-header">
 		<hr/>
@@ -45,7 +49,11 @@ layout: default
 	</section>
 	<a class="more" href="https://medium.com/@Maria_Carvajal">Read more</a>
 </section>
+</div>
 
 <section class="dark-background">
-	<p>{{ site.work }}</p>
+	<div class="wrapper">
+		<p>{{ site.work }}</p>
+	</div>
 </section>
+<div class="wrapper">
