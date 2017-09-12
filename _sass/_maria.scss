@@ -23,6 +23,13 @@ h2 {
 	margin-bottom: 0;
 }
 
+.roles {
+	font-family: $light-font-family;
+	font-size: 1.25em;
+	line-height: 1.15;
+	margin-bottom: 0;
+}
+
 header h2 {
 	max-width: 11em;
 }
@@ -67,6 +74,10 @@ header h2 {
 	font-family: $medium-font-family;
 	font-size: $small-font-size;
 	color: $text-color;
+
+	&:visited {
+		color: $text-color;
+	}
 }
 
 .projects {

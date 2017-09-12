@@ -7,14 +7,14 @@
 
 # Site settings
 title: Maria Carvajal
-subtitle: Holistic Digital Strategist I do online marketing
+subtitle: Holistic Digital Strategist
 email: maria.carvajal.casado@gmail.com
 description:
-  - Nice to meet you! I’m Maria, a multipotentialite (I have just discover it in a TED Talk)  based in Barcelona. I solve coomunication problems from reflection to execution. For me, marketing online, social media and web design are the tools to build your digital alter ego or brand in the Internet world.
-  - I love to help you to find your soul and voice and empower them to everyone else.
+  - Nice to meet you! I’m Maria, a multipotentialite (I have just discovered it in a TED Talk) based in Barcelona. I solve comunication problems from reflection to execution. For me, marketing online, social media and web design are the tools to build your digital alter ego or brand in the digital world.
+  - I love to help you to find your soul and voice and empower them.
 bio:
-  - I studied Audiovisual Communication. The love for aesthetics and the power of words are the two hemispheres of my creative brain. After few years working on tv, stylism and coolhuntingI I decide to focus on the digital path to understant new tools to communicate to the world. I had the opportunity to learn and work in Marketing Online at the great agency Runroom. 
-  - After almost three years there, I had an idea and I decided to bring it to life and I started a new challenge as the founder of Otter.  Realising the importance of copy and the use of words to improve our lives and realtion to others guided me to studied and get the certified on  NLP. I decide to start sharing my learning and thoughts along this path as The Zen Freelancer.
+  - I studied Audiovisual Communication. The love for aesthetics and the power of words are the two hemispheres of my creative brain. After few years working on TV, stylism and coolhunting I decided to focus on the digital path to understand new tools to communicate to the world. I had the opportunity to learn and work in Online Marketing at Runroom. 
+  - After almost three years there, I had an idea and I decided to bring it to life starting a new challenge as the founder of Otter. Realising the importance of copy and the use of words to improve our lives and relation with each other guided me to study and get certified on NLP. I decided to start sharing my learnings and thoughts along this path as The Zen Freelancer.
   - I love to work with other freelancers or brands. If you are looking for a holistic digital communicator you can reach me here.
 # baseurl: "/mariacarvajal" # the subpath of your site, e.g. /blog
 url: "http://mariacarvajal.es" # the base hostname & protocol for your site
@@ -40,6 +40,6 @@ post_2:
   image: https://cdn-images-1.medium.com/max/2000/1*dROz4jf5v6e7Zet0NcOQ-g.jpeg
   url: https://medium.com/@Maria_Carvajal/be-grateful-of-your-imperfections-and-how-to-deal-with-your-perfectionism-when-its-on-fire-ccfbe10a1390
   title: “Be grateful of your imperfections” and how to deal with your perfectionism when it’s on fire.
-work: I'm up for new projects and collaborations. I will love to chat with you about how can I help you. You can contact me anytime at maria.carvajal.casado@gmail.com
+work: I'm up for new projects and collaborations. I will love to chat with you about how I can help you. You can contact me anytime at maria.carvajal.casado@gmail.com
 # Build settings
 markdown: kramdown
