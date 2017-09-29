@@ -98,4 +98,17 @@ $on-laptop:        800px;
 			margin: 2em 0;
 		}
 	}
+	.dark-background {
+		p {
+			width: 70%;
+		}
+	}
+	.work {
+		position: absolute;
+    right: 5.25em!important;
+    font-size: 0.5em!important;
+    width: 20%!important;
+    top: .5em!important;
+		margin: 0!important;
+	}
 }
