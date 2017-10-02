@@ -83,7 +83,6 @@ $on-laptop:        800px;
 		}
 		.posts-container {
 			display: flex;
-			align-items: center;
 			justify-content: space-between;
 
 			.post {
@@ -98,17 +97,17 @@ $on-laptop:        800px;
 			margin: 2em 0;
 		}
 	}
+}
+
+@include media-query($on-ipad) {
 	.dark-background {
-		p {
-			width: 70%;
+		.wrapper {
+			display: flex;
+			justify-content: space-between;
 		}
-	}
-	.work {
-		position: absolute;
-    right: 5.25em!important;
-    font-size: 0.5em!important;
-    width: 20%!important;
-    top: .5em!important;
-		margin: 0!important;
+		p {
+			width: 45%;
+			margin-bottom: 0;
+		}
 	}
 }

@@ -4,34 +4,33 @@ layout: default
 
 <p class="big-text">{{ site.description[0] }}</p>
 <p class="big-text">{{ site.description[1] }}</p>
-<p class="big-text">{{ site.work }}</p>
+<p class="big-text">Why I'm doing this? Read my full bio <a href="#bio">here</a>.</p>
 
 <h2>These are brands and businesses I've had the pleasure to work with:</h2>
 
 <section class="projects">
-	<img src="{{ "/images/projects/optim/otter_card.png" | prepend: site.baseurl }}">
+	<img src="{{ "/images/projects/optim/otter.png" | prepend: site.baseurl }}">
 	<section class="project-row">
 		<section class="project mireia">
-			<img src="{{ "/images/projects/optim/mireiaabras_card.png" | prepend: site.baseurl }}">
+			<img src="{{ "/images/projects/optim/mireiaabras.png" | prepend: site.baseurl }}">
 		</section>
 		<section class="project cortana">
-			<img src="{{ "/images/projects/optim/cortana_card.png" | prepend: site.baseurl }}">
+			<img src="{{ "/images/projects/optim/cortana.png" | prepend: site.baseurl }}">
 		</section>
 	</section>
-	<img src="{{ "/images/projects/optim/runroom_card.png" | prepend: site.baseurl }}">
+	<img src="{{ "/images/projects/optim/runroom.png" | prepend: site.baseurl }}">
 </section>
 </div>
 
-<section class="dark-background">
+<section class="dark-background" id="bio">
 	<div class="wrapper">
-	{% for paragraph in site.bio %}
-		<p>{{ paragraph }}</p>
-	{% endfor %}
-		<p class="work">{{ site.work }}</p>
+		<p>{{ site.bio[0] }}</p>
+		<p>{{ site.bio[1] }}</p>
 	</div>
 </section>
 
 <div class="wrapper">
+<p class="big-text">{{ site.work }}</p>
 <section class="posts">
 	<section class="posts-header">
 		<hr/>
@@ -40,11 +39,11 @@ layout: default
 	</section>
 	<section class="posts-container">
 		<a class="post" href="{{ site.post.url }}">
-			<img src="{{ site.post.image }}">
+			<div class="post-background" style="background-image: url({{ site.post.image }})"></div>
 			<span class="title">{{ site.post.title }}</span>
 		</a>
 		<a class="post" href="{{ site.post_2.url }}">
-			<img src="{{ site.post_2.image }}">
+			<div class="post-background" style="background-image: url({{ site.post_2.image }})"></div>
 			<span class="title">{{ site.post_2.title }}</span>
 		</a>
 	</section>
