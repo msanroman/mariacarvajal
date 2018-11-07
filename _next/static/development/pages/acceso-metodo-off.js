@@ -4105,13 +4105,13 @@ var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("iframe", {
-    src: "https://player.vimeo.com/video/112866269",
+    src: "https://player.vimeo.com/video/299522472",
     width: "640",
-    height: "360",
-    frameborder: "0",
-    webkitallowfullscreen: true,
-    mozallowfullscreen: true,
-    allowfullscreen: true,
+    height: "480",
+    frameBorder: "0",
+    webkitallowfullscreen: "true",
+    mozallowfullscreen: "true",
+    allowFullScreen: true,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 65
@@ -4153,7 +4153,7 @@ var Content = styled_components__WEBPACK_IMPORTED_MODULE_1__["default"].section.
 
 /***/ }),
 
-/***/ 5:
+/***/ 3:
 /*!******************************************!*\
   !*** multi ./pages/acceso-metodo-off.js ***!
   \******************************************/
@@ -4178,5 +4178,5 @@ module.exports = dll_10edf27d814a728d21af;
 
 /***/ })
 
-},[[5,"static/runtime/webpack.js"]]]));;
+},[[3,"static/runtime/webpack.js"]]]));;
 //# sourceMappingURL=acceso-metodo-off.js.map
