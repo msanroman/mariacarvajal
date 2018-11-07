@@ -1,36 +1,102 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<p class="big-text">{{ site.description[0] }}</p>
-<p class="big-text">{{ site.description[1] }}</p>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Maria Carvajal</title>
+  <meta name="description" content="Nice to meet you! I’m Maria, a multipotentialite based in Barcelona. I solve communication problems from reflection to execution. To me, marketing online, social media and web design are the tools to build up your alter ego or brand in a digital world.I love helping you to find your soul and voice and so, empower them.">
+
+	<link rel="stylesheet" type="text/css" href="/css/MyFontsWebfontsKit.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/">
+  <link rel="alternate" type="application/rss+xml" title="Maria Carvajal" href="http://mariacarvajal.es/feed.xml">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-17x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<link rel="mask-icon" href="" color="#5bbad5">
+	<meta name="theme-color" content="#ffffff">
+	<script
+		src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+		crossorigin="anonymous"></script>
+</head>
+
+
+  <body>
+
+    <div class="page-content">
+      <div class="wrapper">
+				
+<header>
+	<section class="logo">
+		<span class="smallcap">M</span>
+		<span class="spacer"></span>
+		<span class="smallcap">C</span>
+	</section>
+	<h1>Maria Carvajal</h1>
+	<h2>Holistic Digital Strategist</h2>
+	<span class="roles">I do online marketing</span>
+	<section class="rrss-links">
+		
+			<a class="rrss-link" href="https://www.linkedin.com/in/maria-carvajal-casado-278569143/" target="_blank">LinkedIn</a>
+		
+			<a class="rrss-link" href="https://www.instagram.com/thezenfreelancer/" target="_blank">Instagram</a>
+		
+			<a class="rrss-link" href="https://twitter.com/MariaCarvajalC" target="_blank">Twitter</a>
+		
+			<a class="rrss-link" href="https://es.pinterest.com/maria_carvajal/" target="_blank">Pinterest</a>
+		
+	</section>
+</header>
+<script type="text/javascript">
+	var roles = [
+		'online marketing',
+		'content creation',
+		'web design',
+		'brand development'
+	];
+	var roleIndex = 0;
+	setInterval(function() {
+		var role = roles[roleIndex];
+		$('.roles').text('I do ' + role);
+		roleIndex += 1;
+		roleIndex = roleIndex % roles.length;
+	}, 2000);
+</script>
+
+        <p class="big-text">Nice to meet you! I’m Maria, a multipotentialite based in Barcelona. I solve communication problems from reflection to execution. To me, marketing online, social media and web design are the tools to build up your alter ego or brand in a digital world.</p>
+<p class="big-text">I love helping you to find your soul and voice and so, empower them.</p>
 <p class="big-text">Why am I doing this? Read my full bio <a href="#bio">here</a>.</p>
 
 <h2>These are brands and business projects I have the pleasure to work with:</h2>
 
 <section class="projects">
-	<img src="{{ "/images/projects/optim/otter.png" | prepend: site.baseurl }}">
+	<img src="/images/projects/optim/otter.png">
 	<section class="project-row">
 		<section class="project mireia">
-			<img src="{{ "/images/projects/optim/mireiaabras.png" | prepend: site.baseurl }}">
+			<img src="/images/projects/optim/mireiaabras.png">
 		</section>
 		<section class="project cortana">
-			<img src="{{ "/images/projects/optim/cortana.png" | prepend: site.baseurl }}">
+			<img src="/images/projects/optim/cortana.png">
 		</section>
 	</section>
-	<img src="{{ "/images/projects/optim/runroom.png" | prepend: site.baseurl }}">
+	<img src="/images/projects/optim/runroom.png">
 </section>
 </div>
 
 <section class="dark-background" id="bio">
 	<div class="wrapper">
-		<p>{{ site.bio[0] }}</p>
-		<p>{{ site.bio[1] }}</p>
+		<p>I studied the degree of Audiovisual Communication. Love for aesthetics and power of words are the two hemispheres of my creative brain. After few years working in television, communication and coolhunting I decided to focus on the digital path to understand the new tools to communicate to the world. I had the opportunity to work and learn Marketing Online at the great agency Runroom.</p>
+		<p>After almost three years there, I had an idea and so, made up my mind to bring it to life. I started a new challenge as the founder of Otter. The awereness of the importance of copy and the use of words to improve our lives and relationship with the others guided me to study and get certified on NLP. I decided to share my learning and thoughts along this way as The Zen Freelancer.</p>
 	</div>
 </section>
 
 <div class="wrapper">
-<p class="big-text">{{ site.work }}</p>
+<p class="big-text">I'm up for new projects and collaborations. I will love to chat with you about how I can help you. You can contact me anytime at maria.carvajal.casado@gmail.com</p>
 <section class="posts">
 	<section class="posts-header">
 		<hr/>
@@ -38,13 +104,13 @@ layout: default
 		<hr/>
 	</section>
 	<section class="posts-container">
-		<a class="post" href="{{ site.post.url }}">
-			<div class="post-background" style="background-image: url({{ site.post.image }})"></div>
-			<span class="title">{{ site.post.title }}</span>
+		<a class="post" href="https://medium.com/@Maria_Carvajal/the-importance-of-designing-your-own-emotional-workout-bc5a2f25fac7">
+			<div class="post-background" style="background-image: url(https://cdn-images-1.medium.com/max/2000/1*iUGmW_Z-84p1AX8B0Xgy8A.jpeg)"></div>
+			<span class="title">The importance of designing your own “emotional workout”</span>
 		</a>
-		<a class="post" href="{{ site.post_2.url }}">
-			<div class="post-background" style="background-image: url({{ site.post_2.image }})"></div>
-			<span class="title">{{ site.post_2.title }}</span>
+		<a class="post" href="https://medium.com/@Maria_Carvajal/great-things-take-time-how-im-navigate-my-startup-path-with-patience-instead-of-investors-188a322725dc">
+			<div class="post-background" style="background-image: url(https://cdn-images-1.medium.com/max/2000/1*RkYdyo5wjHmqoL6FGFdu_g.jpeg)"></div>
+			<span class="title">(Great) Things take time. How I’m navigating my startup path with patience instead of investors.</span>
 		</a>
 	</section>
 	<a class="more" href="https://medium.com/@Maria_Carvajal">Read more</a>
@@ -52,3 +118,10 @@ layout: default
 </div>
 
 <div class="wrapper">
+
+      </div>
+    </div>
+
+  </body>
+
+</html>
