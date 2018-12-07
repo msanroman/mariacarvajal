@@ -1,0 +1,61 @@
+---
+layout: metodooff
+---
+
+<header class="container">
+    <h1 class="title">Bienvenido al <span class="bold">Método OFF</span></h1>
+</header>
+
+<section class="video content">
+    <iframe src="https://player.vimeo.com/video/299522472" width="640" height="480" frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen></iframe>
+</section>
+
+<section class="aboutContainer">
+    <section class="authorWrapper">
+        <img src="/images/maria.jpg" alt="Maria Carvajal" class="author">
+    </section>
+    <section class="about">
+        <h2 class="title">Sobre la autora</h2>
+        <p class="description">Maria Carvajal es la fundadora de otter.es y de @thezenfreelancer.</p>
+        <p class="description">Tras una década trabajando para otras empresas decidió dar el salto y montar su propio proyecto. Tres años después y con todo lo aprendido en el camino de emprender y  convertirte en tu propia empresa, ha decidido compartir sus aprendizajes sobre cómo emprender de una manera sostenible dando lo mejor de nosotros.</p>
+        <p class="description">Gracias a esto acompaña y potencia a otros emprendedores y a sus proyectos a través de la comunicación digital.</p>
+    </section>
+</section>
+
+<footer>
+    <span class="copyright">© Maria Carvajal 2018</span>
+    <section class="social">
+        <a target="_blank" href="https://www.facebook.com/Maria-Carvajal-200423493872193/">
+            <span class="icon-facebook" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/thezenfreelancer">
+            <span class="icon-instagram" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/maria-carvajal-casado-278569143/">
+            <span class="icon-linkedin2" />
+        </a>
+        <a target="_blank" href="https://www.pinterest.es/maria_carvajal/">
+            <span class="icon-pinterest" />
+        </a>
+    </section>
+    <a href="#">Política de Privacidad</a>
+</footer>
+
+<script>
+    $(document).ready(function() {
+
+        $('#privacy').change(function(ev) {
+            $('form button').toggleClass('disabled');
+        });
+
+        $('form button').click(function(ev) {
+            ev.preventDefault();
+        });
+
+        $('header .cta').click(function(ev) {
+            ev.preventDefault();
+            $(window).scrollTo('form', 500);
+        });
+    })
+</script>
+
