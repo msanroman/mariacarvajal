@@ -226,17 +226,46 @@ header {
     }
 }
 
+.red {
+    padding-top: 2rem;
+    color: white;
+    font-size: 1rem;
+    font-family: 'TT-Norms', sans-serif;
+    line-height: 1.25rem;
+    background-color: #d14327;
+
+    @media screen and (min-width: 768px) {
+        min-height: 27rem;
+        p {
+            max-width: 40em;
+            margin: 0 auto 2rem;
+        }
+        li {
+            list-style: disc;
+            max-width: 40em;
+            margin: 0 auto;
+
+            a {
+                color: white;
+            }
+        }
+    }
+}
 .content {
     flex-grow: 1;
     flex-shrink: 0;
     padding-top: 2rem;
     background-color: #f0f0f0;
 
+
     @media screen and (min-width: 768px) {
         display: flex;
         justify-content: center;
         min-height: 27rem;
         padding-top: 0;
+        &.comments {
+            align-items: center;
+        }
 
         &.thank-you {
             min-height: 20rem;
