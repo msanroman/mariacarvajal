@@ -1,0 +1,90 @@
+---
+layout: metodooff
+---
+
+<header class="container">
+    <section>
+        <h1 class="title">Descubre con este mini curso GRATUITO cómo transformar 8h de tu tiempo en 4h con el <span class="bold">método OFF</span></h1>
+        <button class="cta">Accede ahora</button>
+    </section>
+    <img class="mockup" src="/images/imac.png" />
+</header>
+
+<section class="content">
+    <section class="claimContainer">
+        <h2 class="claim">Con tan sólo 30' hoy podrás sacale más horas a tu día a partir de mañana.</h2>
+        <p class="description">Aprenderás los tres aspectos clave que debes cuidar para mantener el foco en tu día a día y dejar de perder el tiempo. Tú tienes el poder de invertirlo en lo que realmente importa para ti.</p>
+    </section>
+
+    <section class="goalsContainer">
+        <ul class="goalList">
+            <li class="goal">Descubre una manera rápida y sencilla de planificar tu día.</li>
+            <li class="goal">Aprende cuál es mi fórmula mágica para empezar el día y el poder de invertir en ti antes de hacer nada más.</li>
+            <li class="goal">Herramientas imprescindibles en las que te podrás apoyar para aprovechar al máximo tu día a día.</li>
+        </ul>
+    </section>
+</section>
+
+<section class="aboutContainer">
+    <section class="authorWrapper">
+        <img src="/images/maria.jpg" alt="Maria Carvajal" class="author">
+    </section>
+    <section class="about">
+        <h2 class="title">Sobre la autora</h2>
+        <p class="description">Maria Carvajal es la fundadora de otter.es y de @thezenfreelancer.</p>
+        <p class="description">Tras una década trabajando para otras empresas decidió dar el salto y montar su propio proyecto. Tres años después y con todo lo aprendido en el camino de emprender y  convertirte en tu propia empresa, ha decidido compartir sus aprendizajes sobre cómo emprender de una manera sostenible dando lo mejor de nosotros.</p>
+        <p class="description">Gracias a esto acompaña y potencia a otros emprendedores y a sus proyectos a través de la comunicación digital.</p>
+    </section>
+</section>
+
+<section class="form">
+    <h2 class="title">Accede ahora al vídeo que hará que tengas más tiempo en tu día a día.</h2>
+    <h3 class="subtitle">Aprende de una manera fácil y rápida cómo sacar lo mejor de tu tiempo y sentirte realizado al final del día.</h3>
+    <form>
+        <label for="name">Tu nombre</label>
+        <input type="text" name="name" />
+        <label for="email">Tu email</label>
+        <input type="email" name="email" />
+        <input id="privacy" type="checkbox" name="privacy" />
+        <label for="privacy">He leido y acepto la <a href="#">política de privacidad</a></label>
+        <span class="spacer"/>
+        <button class="cta disabled">¡Vamos allá!</button>
+    </form>
+</section>
+
+<footer>
+    <span class="copyright">© Maria Carvajal 2018</span>
+    <section class="social">
+        <a target="_blank" href="https://www.facebook.com/Maria-Carvajal-200423493872193/">
+            <span class="icon-facebook" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/thezenfreelancer">
+            <span class="icon-instagram" />
+        </a>
+        <a target="_blank" href="https://www.linkedin.com/in/maria-carvajal-casado-278569143/">
+            <span class="icon-linkedin2" />
+        </a>
+        <a target="_blank" href="https://www.pinterest.es/maria_carvajal/">
+            <span class="icon-pinterest" />
+        </a>
+    </section>
+    <a href="#">Política de Privacidad</a>
+</footer>
+
+<script>
+    $(document).ready(function() {
+
+        $('#privacy').change(function(ev) {
+            $('form button').toggleClass('disabled');
+        });
+
+        $('form button').click(function(ev) {
+            ev.preventDefault();
+        });
+
+        $('header .cta').click(function(ev) {
+            ev.preventDefault();
+            $(window).scrollTo('form', 500);
+        });
+    })
+</script>

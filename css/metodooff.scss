@@ -1,0 +1,455 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+$baseurl: "{{ site.baseurl }}";
+
+// Our variables
+$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$regular-font-family: "TTNorms-Regular", $base-font-family;
+$bold-font-family: "TTNorms-Bold", $base-font-family;
+$light-font-family: "TTNorms-Light", $base-font-family;
+$medium-font-family: "TTNorms-Medium", $base-font-family;
+
+$base-font-size:   16px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     1.875em;
+
+$text-color:       #fff;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1200px;
+
+$medium:           540px;
+$on-palm:          600px;
+$on-ipad:          768px;
+$on-laptop:        800px;
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('/fonts/icomoon.eot?s2iu6a');
+  src:  url('/fonts/icomoon.eot?s2iu6a#iefix') format('embedded-opentype'),
+    url('/fonts/icomoon.ttf?s2iu6a') format('truetype'),
+    url('/fonts/icomoon.woff?s2iu6a') format('woff'),
+    url('/fonts/icomoon.svg?s2iu6a#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-facebook-f:before {
+  content: "\e900";
+}
+.icon-facebook1:before {
+  content: "\ea90";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-linkedin2:before {
+  content: "\eaca";
+}
+.icon-pinterest:before {
+  content: "\ead1";
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html, body {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    html, body {
+        font-size: 16px;
+    }
+}
+
+._form-wrapper {
+    display: none;
+}
+
+header {
+    .title {
+        color: white;
+        font-family: Didot;
+        font-weight: 400;
+        line-height: 1.25;
+        font-size: 1.75rem;
+        margin-top: 1.5rem;
+        
+        @media screen and (min-width: 768px) {
+            margin-top: 0;
+            font-size: 2.5rem;
+            max-width: 35rem;
+        }
+    }
+}
+
+
+.container {
+    background-color: #d14327;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding: 6rem 4rem;
+        flex-direction: row;
+        text-align: left;
+    }
+}
+
+.mockup {
+    display: block;
+    width: 18rem;
+    height: auto;
+    margin-top: 2rem;
+
+    @media screen and (min-width: 768px) {
+        margin-left: 4rem;
+        margin-top: 0;
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cta {
+    display: inline-block;
+    color: white;
+    font-family: 'TT-Norms', sans-serif;
+    font-size: .75rem;
+    background-color: black;
+    border: none;
+    padding: 1rem 2.5rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 1.5rem;
+
+    &.disabled {
+        background: white;
+        color: black;
+        opacity: .85;
+    }
+}
+
+.content {
+    padding-top: 2rem;
+    background-color: #f0f0f0;
+
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        min-height: 27rem;
+        padding-top: 0;
+    }
+}
+
+.claimContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    margin-bottom: 2rem;
+
+    @media screen and (min-width:960px) {
+        align-items: flex-end;
+        padding-right: 4rem;
+    }
+}
+
+.claim {
+    font-family: Didot, serif;
+    font-weight: bold;
+    max-width: 22rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 1.125;
+
+    @media screen and (min-width: 768px) {
+        font-size: 1.75rem;
+        line-height: 1.25;
+    }
+}
+
+.description {
+    font-family: 'TT-Norms', sans-serif;
+    max-width: 22rem;
+    line-height: 1.25;
+}
+
+.goalsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 2rem 0;
+
+    @media screen and (min-width:960px) {
+        align-items: flex-start;
+        padding-left: 4rem;
+    }
+}
+
+.goalList {
+    list-style: none;
+}
+
+.goal {
+    font-family: 'TT-Norms', sans-serif;
+    max-width: 22rem;
+    line-height: 1.25;
+    position: relative;
+
+    &:before {
+        content: '';
+        background: url(/images/check.png);
+        background-repeat: no-repeat;
+        width: 1.5rem;
+        height: .875rem;
+        display: block;
+        position: absolute;
+        left: -2rem;
+        top: .25rem;
+    }
+
+    &:not(:last-child) {
+        margin-bottom: 1.5rem;
+    } 
+}
+
+.aboutContainer {
+    padding: 2rem 0;
+    @media screen and (min-width:768px){
+        padding: 4rem 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        min-height: 27rem;
+    }
+}
+
+.about {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        flex-grow: 1;
+        padding-left: 4rem;
+        padding-right: 0;
+        align-items: flex-start;
+    }
+
+    .title {
+        font-family: Didot, serif;
+        font-size: 1.75rem;
+        font-weight: bold;
+        line-height: 1.25;
+        max-width: 22rem;
+        margin-bottom: 1rem;
+    }
+    
+    .description {
+        font-family: 'TT-Norms', sans-serif;
+        max-width: 22rem;
+        line-height: 1.25;
+        margin-bottom: 1.5rem;
+    }
+}
+.authorWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    @media screen and (min-width: 768px) {
+        flex-grow: 1;
+        max-width: 45%;
+    }
+
+    @media screen and (min-width: 960px) {
+        align-items: flex-end;
+        padding-right: 4rem;
+        max-width: none;
+    }
+}
+
+.author {
+    height: 26rem;
+    min-height: 100%;
+    width: auto;
+    background: black;
+    display: block;
+}
+
+.form {
+    background-color: #d14327;
+    padding: 2rem;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding: 6rem 4rem;
+    }
+
+    .title {
+        font-family: Didot, serif;
+        font-size: 1.75rem;
+        line-height: 1.1125;
+        color: white;
+    }
+    
+    .subtitle {
+        font-family: 'TT-Norms', sans-serif;
+        font-size: 1rem;
+        line-height: 1.25;
+        color: white;
+        margin-top: 1rem;
+    }
+
+    form {
+        text-align: left;
+        width: 100%;
+        max-width: 500px;
+        margin: 4rem auto 0;
+    }
+
+    label {
+        display: block;
+        font-family: 'TT-Norms', sans-serif;
+        font-size: 1rem;
+        color: white;
+        margin-bottom: .25rem;
+
+        a {
+            color: white;
+        }
+    }
+
+    label[for="privacy"],
+    input[id="privacy"] {
+        display: inline;
+        width: initial;
+    }
+
+    input {
+        display: block;
+        border-radius: .25rem;
+        padding: .375rem;
+        border: none;
+        width: 100%;
+
+        &:not(:last-child) {
+            margin-bottom: .625rem;
+        }
+    }
+}
+
+footer {
+    background-color: #000;
+    padding: 2rem;
+    font-family: 'TT-Norms', sans-serif;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: white;
+    }
+
+    .social a {
+        text-decoration: none;
+        font-size: 1.25rem;
+    }
+
+    .copyright {
+        font-size: .75rem;
+    }
+}
+
+.spacer {
+    display: block;
+    width: 100%;
+}
