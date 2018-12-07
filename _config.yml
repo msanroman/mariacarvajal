@@ -42,5 +42,5 @@ work: I'm up for new projects and collaborations. I will love to chat with you a
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
 - octopress-autoprefixer
