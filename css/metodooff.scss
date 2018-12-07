@@ -231,6 +231,12 @@ header {
             text-align: left;
             flex-direction: column;
         }
+        &.gracias {
+            text-align: center;
+            flex-direction: column;
+            align-items: center;
+            min-height: 20rem;
+        }
 
         &.video {
             padding: 2rem 3rem;
@@ -240,7 +246,32 @@ header {
     }
 }
 
-.thank-you {
+.gracias {
+    padding: 2rem 5rem;
+
+    .mockup {
+        margin-left: 0;
+    }
+    
+    .claim {
+        max-width: 80%!important;
+        text-align: center!important;
+        margin: 2rem 0!important;
+    }
+
+    .description.description-gracias
+    {
+        max-width: 80%!important;
+        text-align: center!important;
+        margin-bottom: 2rem!important;
+
+        p {
+            margin-bottom: 1rem!important;
+        }
+    }
+}
+
+.thank-you, .gracias {
     .claim {
         font-family: Didot, serif;
         font-weight: bold;
