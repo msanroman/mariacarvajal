@@ -41,6 +41,3 @@ post_2:
 work: I'm up for new projects and collaborations. I will love to chat with you about how I can help you. You can contact me anytime at maria.carvajal.casado@gmail.com
 # Build settings
 markdown: kramdown
-
-plugins:
-- octopress-autoprefixer
