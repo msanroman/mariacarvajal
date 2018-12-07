@@ -128,6 +128,13 @@ table {
 
 html, body {
     font-size: 14px;
+    min-height: 100%;
+    height: 100%;
+}
+
+.page-content, .wrapper {
+    min-height: 100%;
+    height: 100%;
 }
 
 @media screen and (min-width: 768px) {
@@ -226,12 +233,9 @@ header {
         }
 
         &.video {
-            display: flex;
-            justify-content: center;
-            flex-direction: column;
-            align-items: center;
-            padding-top: 0;
-            text-align: left;
+            padding: 2rem 3rem;
+            display: block;
+            min-height: initial;
         }
     }
 }
@@ -498,4 +502,18 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.video-responsive {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.video-responsive iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
