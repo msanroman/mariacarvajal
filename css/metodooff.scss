@@ -448,13 +448,7 @@ p.description {
         }
     }
 
-    label[for="privacy"],
-    input[id="privacy"] {
-        display: inline;
-        width: initial;
-    }
-
-    input {
+    input:not([type="submit"]) {
         display: block;
         border-radius: .25rem;
         padding: .375rem;
@@ -464,6 +458,12 @@ p.description {
         &:not(:last-child) {
             margin-bottom: .625rem;
         }
+    }
+
+    label[for="privacy"],
+    input[id="privacy"] {
+        display: inline;
+        width: initial;
     }
 }
 

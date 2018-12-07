@@ -48,7 +48,7 @@ layout: metodooff
         <input id="privacy" type="checkbox" name="privacy" />
         <label for="privacy">He leido y acepto la <a href="#">política de privacidad</a></label>
         <span class="spacer"/>
-        <button class="cta disabled">¡Vamos allá!</button>
+        <input type="submit" class="cta disabled" value="¡Vamos allá!">
     </form>
 </section>
 
@@ -75,10 +75,10 @@ layout: metodooff
     $(document).ready(function() {
 
         $('#privacy').change(function(ev) {
-            $('form button').toggleClass('disabled');
+            $('form [type="submit"]').toggleClass('disabled');
         });
 
-        $('form button').click(function(ev) {
+        $('form [type="submit"]').click(function(ev) {
             ev.preventDefault();
         });
 
